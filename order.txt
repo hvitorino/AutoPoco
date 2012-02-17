@@ -1,0 +1,33 @@
+--- When performing initial configuration
+
+1) Find all the types we wish to play with
+   - Grab from configuration
+   - Grab from base types of any in configuration
+
+2) Apply type conventions
+    - Member registration (that is all) (default ignore base types)
+    - This should only happen to types that haven't been added manually
+
+3) Add type members from configuration, don't configure them
+
+3) Apply member conventions - apply scores
+     - Type + Name > Name > Type
+
+4) Apply configuration for specific types (ignore hiearchy)
+
+5) Scan hieararchy and merge base rules into derived types
+
+6) DONE
+
+---  When performing anonymous type registration ---
+
+1) Register type + all base types (keep track of each type registered)
+2) Apply type conventions to all those types
+3) Apply member conventions + apply scores
+4) Scan hierarchy and merge base rules into derived types
+5) DONE
+
+
+
+
+

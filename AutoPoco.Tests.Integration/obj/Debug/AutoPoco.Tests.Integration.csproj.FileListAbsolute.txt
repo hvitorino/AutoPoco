@@ -1,0 +1,5 @@
+C:\Builds\RavenDB\AutoPoco.Tests.Integration.dll
+C:\Builds\RavenDB\AutoPoco.Tests.Integration.pdb
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Tests.Integration\obj\Debug\ResolveAssemblyReference.cache
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Tests.Integration\obj\Debug\AutoPoco.Tests.Integration.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Tests.Integration\obj\Debug\AutoPoco.Tests.Integration.pdb

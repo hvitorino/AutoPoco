@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutoPoco/Configuration/EngineConfigurationTypeMemberBuilder.cs" ctype="Workbench">
+    <Files>
+      <File FileName="AutoPoco/Configuration/EngineConfigurationTypeMemberBuilder.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AutoPoco" expanded="True">
+            <Node name="Configuration" expanded="True">
+              <Node name="EngineConfigurationTypeMemberBuilder.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="AutoPoco.Tests.Integration" expanded="True" />
+          <Node name="AutoPoco.Tests.Unit" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

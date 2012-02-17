@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDD484D5-0445-403A-BE50-CF50462DDBA6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoPoco</RootNamespace>
+    <AssemblyName>AutoPoco</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\AutoPoco.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\AutoPoco.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ObjectFieldSetFromValueAction.cs" />
+    <Compile Include="Actions\ObjectMethodInvokeFromSourceAction.cs" />
+    <Compile Include="Actions\ObjectMethodInvokeActionAction.cs" />
+    <Compile Include="Actions\ObjectMethodInvokeFuncAction.cs" />
+    <Compile Include="Actions\ObjectPropertySetFromValueAction.cs" />
+    <Compile Include="AutoPocoContainer.cs" />
+    <Compile Include="ConfigurationExtensions.cs" />
+    <Compile Include="Configuration\AdhocEngineConfigurationProvider.cs" />
+    <Compile Include="Configuration\AdhocEngineTypeProvider.cs" />
+    <Compile Include="Configuration\DatasourceFactory.cs" />
+    <Compile Include="Configuration\EngineConfiguration.cs" />
+    <Compile Include="Configuration\EngineConfigurationFactory.cs" />
+    <Compile Include="Configuration\EngineConfigurationType.cs" />
+    <Compile Include="Configuration\EngineConfigurationTypeBuilder%27.cs" />
+    <Compile Include="Configuration\EngineConfigurationTypeMember.cs" />
+    <Compile Include="Configuration\EngineConfigurationTypeMemberBuilder%27.cs" />
+    <Compile Include="Configuration\EngineConventionConfiguration.cs" />
+    <Compile Include="Configuration\EngineTypeFieldMember.cs" />
+    <Compile Include="Configuration\EngineTypeMethodMember.cs" />
+    <Compile Include="Configuration\EngineTypePropertyMember.cs" />
+    <Compile Include="Configuration\IConvention.cs" />
+    <Compile Include="Configuration\IEngineConfiguration.cs" />
+    <Compile Include="Configuration\IEngineConfigurationFactory.cs" />
+    <Compile Include="Configuration\IEngineConfigurationProviderLoader.cs" />
+    <Compile Include="Configuration\IEngineConfigurationType.cs" />
+    <Compile Include="Configuration\IEngineConfigurationTypeBuilder%27.cs" />
+    <Compile Include="Configuration\IEngineConfigurationTypeMember.cs" />
+    <Compile Include="Configuration\IEngineConfigurationDatasource.cs" />
+    <Compile Include="Configuration\IEngineConfigurationTypeMemberBuilder%27.cs" />
+    <Compile Include="Configuration\IEngineConventionConfiguration.cs" />
+    <Compile Include="Configuration\ITypeRegistrationAction.cs" />
+    <Compile Include="Configuration\ITypeRegistrationService.cs" />
+    <Compile Include="Configuration\IEngineConfigurationProviderLoaderContext.cs" />
+    <Compile Include="Configuration\ITypeFieldConvention.cs" />
+    <Compile Include="Configuration\ITypeConvention.cs" />
+    <Compile Include="Configuration\ITypeConventionContext.cs" />
+    <Compile Include="Configuration\ITypeFieldConventionContext.cs" />
+    <Compile Include="Configuration\ITypeMemberConventionRequirements.cs" />
+    <Compile Include="Configuration\ITypePropertyConvention.cs" />
+    <Compile Include="Configuration\ITypePropertyConventionContext.cs" />
+    <Compile Include="Configuration\MethodInvocationContext.cs" />
+    <Compile Include="Configuration\Providers\IEngineConfigurationProvider.cs" />
+    <Compile Include="Configuration\Providers\IEngineConfigurationTypeMemberProvider.cs" />
+    <Compile Include="Configuration\Providers\IEngineConfigurationTypeProvider.cs" />
+    <Compile Include="Configuration\Providers\IEngineConventionProvider.cs" />
+    <Compile Include="Configuration\TypeConventionContext.cs" />
+    <Compile Include="Configuration\TypeFieldConventionContext.cs" />
+    <Compile Include="Configuration\TypeFieldConventionRequirements.cs" />
+    <Compile Include="Configuration\TypeMemberConventionContext.cs" />
+    <Compile Include="Configuration\TypeMemberConventionRequirements.cs" />
+    <Compile Include="Configuration\TypePropertyConventionContext.cs" />
+    <Compile Include="Configuration\TypePropertyConventionRequirements.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\ApplyTypeConventionsAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\ApplyTypeFactoryAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\ApplyTypeMemberConfigurationAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\ApplyTypeMemberConventionsAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\CascadeBaseTypeConfigurationAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\RegisterTypeMembersFromConfigurationAction.cs" />
+    <Compile Include="Configuration\TypeRegistrationActions\TypeRegistrationAction.cs" />
+    <Compile Include="Configuration\EngineConfigurationProviderLoaderContext.cs" />
+    <Compile Include="Configuration\Use.cs" />
+    <Compile Include="Conventions\DefaultEngineConfigurationProviderLoadingConvention.cs" />
+    <Compile Include="Conventions\DefaultPrimitiveCtorConvention.cs" />
+    <Compile Include="Conventions\DefaultTypeConvention.cs" />
+    <Compile Include="Conventions\DefaultComplexTypeCtorConvention.cs" />
+    <Compile Include="Conventions\ReferenceMemberConvention.cs" />
+    <Compile Include="DataSources\ColorSource.cs" />
+    <Compile Include="DataSources\CountrySource.cs" />
+    <Compile Include="DataSources\CreditCardSource.cs" />
+    <Compile Include="DataSources\CtorSource.cs" />
+    <Compile Include="DataSources\DateOfBirthSource.cs" />
+    <Compile Include="DataSources\DefaultSource.cs" />
+    <Compile Include="DataSources\EnumerableSource.cs" />
+    <Compile Include="DataSources\GuidSource.cs" />
+    <Compile Include="DataSources\LoremIpsumSource.cs" />
+    <Compile Include="DataSources\ParentSource.cs" />
+    <Compile Include="DataSources\UsStatesSource.cs" />
+    <Compile Include="DataSources\ValueSource.cs" />
+    <Compile Include="Engine\CollectionContext.cs" />
+    <Compile Include="Engine\CollectionSequenceSelectionContext.cs" />
+    <Compile Include="Engine\DatasourceBase.cs" />
+    <Compile Include="Engine\GenerationSessionFactory.cs" />
+    <Compile Include="Engine\GenerationTargetTypes.cs" />
+    <Compile Include="Engine\ICollectionContext.cs" />
+    <Compile Include="Engine\IDatasource.cs" />
+    <Compile Include="Configuration\IEngineConfigurationBuilder.cs" />
+    <Compile Include="Configuration\IEngineConfigurationTypeBuilder.cs" />
+    <Compile Include="Configuration\IEngineConfigurationTypeMemberBuilder.cs" />
+    <Compile Include="Configuration\EngineConfigurationBuilder.cs" />
+    <Compile Include="Configuration\EngineConfigurationTypeBuilder.cs" />
+    <Compile Include="Configuration\EngineTypeMember.cs" />
+    <Compile Include="Configuration\EngineConfigurationTypeMemberBuilder.cs" />
+    <Compile Include="Conventions\DefaultDatetimeMemberConvention.cs" />
+    <Compile Include="Conventions\DefaultFloatMemberConvention.cs" />
+    <Compile Include="Conventions\DefaultIntegerMemberConvention.cs" />
+    <Compile Include="Conventions\DefaultStringMemberConvention.cs" />
+    <Compile Include="Engine\IGenerationContext.cs" />
+    <Compile Include="Engine\IGenerationContextNode.cs" />
+    <Compile Include="Engine\IGenerationSessionFactory.cs" />
+    <Compile Include="Engine\IGenerationTarget.cs" />
+    <Compile Include="Engine\IObjectAction.cs" />
+    <Compile Include="Actions\ObjectFieldSetFromSourceAction.cs" />
+    <Compile Include="Actions\ObjectPropertySetFromSourceAction.cs" />
+    <Compile Include="Engine\IObjectBuilder.cs" />
+    <Compile Include="Engine\ICollectionSequenceSelectionContext.cs" />
+    <Compile Include="Engine\IGenerationConfiguration.cs" />
+    <Compile Include="Engine\GenerationConfiguration.cs" />
+    <Compile Include="Engine\RootGenerationContextNode.cs" />
+    <Compile Include="Engine\TypeFieldGenerationContextNode.cs" />
+    <Compile Include="Engine\TypeGenerationContextNode.cs" />
+    <Compile Include="Engine\TypeMethodGenerationContextNode.cs" />
+    <Compile Include="Engine\TypePropertyGenerationContextNode.cs" />
+    <Compile Include="StandardExtensions.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringExtensions.cs" />
+    <Compile Include="DataSources\AutoSource.cs" />
+    <Compile Include="DataSources\DefaultFloatSource.cs" />
+    <Compile Include="DataSources\DefaultIntegerSource.cs" />
+    <Compile Include="DataSources\DefaultStringSource.cs" />
+    <Compile Include="DataSources\IntegerIdSource.cs" />
+    <Compile Include="Engine\GenerationContext.cs" />
+    <Compile Include="Engine\IObjectGenerator.cs" />
+    <Compile Include="Engine\ObjectGenerator.cs" />
+    <Compile Include="Engine\ObjectBuilder.cs" />
+    <Compile Include="Engine\IGenerationSession.cs" />
+    <Compile Include="DataSources\EmailAddressSource.cs" />
+    <Compile Include="DataSources\FirstNameSource.cs" />
+    <Compile Include="DataSources\LastNameSource.cs" />
+    <Compile Include="DataSources\RandomStringSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ReflectionHelper.cs" />
+    <Compile Include="DataSources\FallbackObjectFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

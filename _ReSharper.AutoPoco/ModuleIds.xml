@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="EDD484D5-0445-403A-BE50-CF50462DDBA6" ModuleId="AutoPoco" />
+  <Module PersistentId="22E71826-FA19-42E7-B97B-D7D13D270696" ModuleId="AutoPoco.Tests.Integration" />
+  <Module PersistentId="C42D227E-9EC0-45A5-A045-2B7E31D70013" ModuleId="AutoPoco.Tests.Unit" />
+  <Module PersistentId="260D2207-AB8C-409F-A322-F8EC7573EB42" ModuleId="AutoPoco.Testing" />
+  <Module PersistentId="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+</Modules>

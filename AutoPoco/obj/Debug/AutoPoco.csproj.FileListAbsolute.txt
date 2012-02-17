@@ -1,0 +1,8 @@
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\bin\Debug\AutoPoco.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\bin\Debug\AutoPoco.pdb
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\ResolveAssemblyReference.cache
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\AutoPoco.Properties.Resources.resources
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\ResGen.read.1.tlog
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\ResGen.write.1.tlog
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\AutoPoco.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco\obj\Debug\AutoPoco.pdb

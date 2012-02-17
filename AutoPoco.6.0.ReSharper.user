@@ -1,0 +1,78 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineConfigurationTypeMember.cs" caret="837" fromTop="17" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:IEngineConfigurationDatasource.cs" caret="234" fromTop="10" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Engine/f:ObjectBuilder.cs" caret="1515" fromTop="18" />
+      <File id="C42D227E-9EC0-45A5-A045-2B7E31D70013/d:Configuration/d:Actions/f:ApplyTypeFactoryActionTests.cs" caret="726" fromTop="0" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Conventions/f:DefaultStringMemberConvention.cs" caret="301" fromTop="10" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypePropertyConvention.cs" caret="150" fromTop="7" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineTypeMember.cs" caret="192" fromTop="8" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineTypePropertyMember.cs" caret="196" fromTop="1" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Util/f:ReflectionHelper.cs" caret="3164" fromTop="34" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/f:ConfigurationExtensions.cs" caret="301" fromTop="10" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/f:AutoPocoContainer.cs" caret="413" fromTop="14" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineConfigurationBuilder.cs" caret="1297" fromTop="32" />
+      <File id="C42D227E-9EC0-45A5-A045-2B7E31D70013/d:Configuration/f:EngineTypeMethodTests.cs" caret="2341" fromTop="2" />
+      <File id="C42D227E-9EC0-45A5-A045-2B7E31D70013/d:Actions/f:ObjectPropertySetFromSourceActionTests.cs" caret="761" fromTop="5" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:DataSources/f:EnumerableSource.cs" caret="2654" fromTop="15" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineConfigurationTypeBuilder.cs" caret="2561" fromTop="58" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineConfigurationTypeMemberBuilder.cs" caret="1300" fromTop="32" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:EngineConfigurationTypeMemberBuilder'.cs" caret="1037" fromTop="25" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeConventionContext.cs" caret="831" fromTop="32" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Engine/f:DatasourceBase.cs" caret="148" fromTop="7" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Engine/f:GenerationTargetTypes.cs" caret="233" fromTop="12" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Engine/f:IDatasource.cs" caret="243" fromTop="12" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeMemberConventionContext.cs" caret="0" fromTop="0" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypePropertyConventionContext.cs" caret="215" fromTop="7" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypePropertyConventionContext.cs" caret="938" fromTop="35" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="510" fromTop="19" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypeMemberConventionRequirements.cs" caret="199" fromTop="8" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeMemberConventionRequirements.cs" caret="178" fromTop="8" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypePropertyConventionRequirements.cs" caret="157" fromTop="7" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/d:TypeRegistrationActions/f:ApplyTypeMemberConventionsAction.cs" caret="902" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Conventions/f:DefaultStringMemberConvention.cs" caret="882" fromTop="28" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeMemberConventionContext.cs" caret="994" fromTop="18" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="708" fromTop="20" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="446" fromTop="15" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeMemberConventionContext.cs" caret="1467" fromTop="40" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:TypeMemberConventionContext.cs" caret="1156" fromTop="38" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="330" fromTop="12" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="494" fromTop="19" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:DatasourceFactory.cs" caret="905" fromTop="33" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypePropertyConventionContext.cs" caret="568" fromTop="24" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypePropertyConventionContext.cs" caret="1160" fromTop="38" />
+      <File id="EDD484D5-0445-403A-BE50-CF50462DDBA6/d:Configuration/f:ITypePropertyConventionContext.cs" caret="887" fromTop="35" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="source" priority="31" />
+      <Item value="object" priority="95" />
+      <Item value="sourceInstance" priority="191" />
+      <Item value="if" priority="63" />
+      <Item value="null" priority="63" />
+      <Item value="return" priority="63" />
+      <Item value="IDatasource`0" priority="159" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

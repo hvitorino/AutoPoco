@@ -1,0 +1,7 @@
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\bin\Debug\AutoPoco.Testing.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\bin\Debug\AutoPoco.Testing.pdb
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\bin\Debug\AutoPoco.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\bin\Debug\AutoPoco.pdb
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\obj\Debug\ResolveAssemblyReference.cache
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\obj\Debug\AutoPoco.Testing.dll
+D:\git\autopoco\autopoco_825a96cf3c2e\AutoPoco.Testing\obj\Debug\AutoPoco.Testing.pdb
